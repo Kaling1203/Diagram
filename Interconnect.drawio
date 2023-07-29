@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-29T06:57:19.163Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="edonkagcWM-FrygDiECi" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-29T07:30:05.840Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="agE6mE1aVgSOfnmjEhV0" version="21.3.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2336" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2620" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -566,11 +566,11 @@
             <mxPoint x="-3" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a2z58w3xpTVCjjR5hRxt-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2z58w3xpTVCjjR5hRxt-97" target="a2z58w3xpTVCjjR5hRxt-99">
+        <mxCell id="a2z58w3xpTVCjjR5hRxt-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2z58w3xpTVCjjR5hRxt-104" target="a2z58w3xpTVCjjR5hRxt-99">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="90" y="695" />
-              <mxPoint x="90" y="1415" />
+              <mxPoint x="100" y="748" />
+              <mxPoint x="100" y="1415" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -617,6 +617,14 @@
         </mxCell>
         <mxCell id="a2z58w3xpTVCjjR5hRxt-226" value="+ mmrm_reserve: sde_power_mmrm_reserve" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="a2z58w3xpTVCjjR5hRxt-220">
           <mxGeometry y="312" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="a2z58w3xpTVCjjR5hRxt-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="a2z58w3xpTVCjjR5hRxt-40" target="a2z58w3xpTVCjjR5hRxt-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2z58w3xpTVCjjR5hRxt-237" value="&amp;lt;translate&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a2z58w3xpTVCjjR5hRxt-236">
+          <mxGeometry x="-0.0538" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
