@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-03T07:35:48.297Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="dvi7h6aXzOZ54fUJwCUX" version="24.3.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-03T07:36:12.679Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="dy3i9XxEzZDww8IJSvIo" version="24.3.1" type="github" pages="3">
   <diagram name="DDR3 PHY" id="UruX_jtSdORVsxLQnjOW">
     <mxGraphModel dx="2189" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -456,13 +456,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="x6Obpxux5yCbTKz-zKvs-30" value="PHY Initialization" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="315" width="60" height="30" as="geometry" />
+          <mxGeometry x="658" y="315" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x6Obpxux5yCbTKz-zKvs-31" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=180;" vertex="1" parent="1">
           <mxGeometry x="600" y="598" width="50" height="558" as="geometry" />
         </mxCell>
         <mxCell id="x6Obpxux5yCbTKz-zKvs-32" value="Triggered by user after PHY is initialized" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="680" y="862" width="110" height="30" as="geometry" />
+          <mxGeometry x="652" y="862" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
