@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-03T03:58:45.358Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="v3-TITHUgMUe4fhnwSXJ" version="24.3.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-03T04:01:33.175Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="85cX9aqEmXmVCE4CtPz7" version="24.3.1" type="github" pages="2">
   <diagram name="DDR3 PHY" id="UruX_jtSdORVsxLQnjOW">
-    <mxGraphModel dx="1995" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2189" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -209,11 +209,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DuDkJxmGSpIwg8dUUB0R" name="DDR3 PUB">
-    <mxGraphModel dx="1115" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1168" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BBfoYdX2BD2s7KUMBHFl-1" value="&lt;div style=&quot;padding-top: 10px;&quot; align=&quot;center&quot;&gt;PHY Utility Block (PUB)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="BBfoYdX2BD2s7KUMBHFl-1" value="&lt;div style=&quot;padding-top: 10px;&quot; align=&quot;center&quot;&gt;PHY Utility Block (PUB)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="170" y="80" width="610" height="430" as="geometry" />
         </mxCell>
         <mxCell id="BBfoYdX2BD2s7KUMBHFl-2" value="&lt;div&gt;Configuration&lt;/div&gt;&lt;div&gt;Registers&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
