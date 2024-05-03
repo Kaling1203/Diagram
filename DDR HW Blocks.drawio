@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-03T07:07:04.128Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="TbsT4A4RKQJPhobzmNp2" version="24.3.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-03T07:35:48.297Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="dvi7h6aXzOZ54fUJwCUX" version="24.3.1" type="github" pages="3">
   <diagram name="DDR3 PHY" id="UruX_jtSdORVsxLQnjOW">
     <mxGraphModel dx="2189" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -353,6 +353,116 @@
             <mxPoint x="810" y="347" as="sourcePoint" />
             <mxPoint x="730" y="347.2500000000001" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="thUnZGmS77-H2rIevRTv" name="DDR3 PHY Init flowchart">
+    <mxGraphModel dx="1886" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6Obpxux5yCbTKz-zKvs-1" target="x6Obpxux5yCbTKz-zKvs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-1" value="Un-initialized PHY" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="375" y="100" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6Obpxux5yCbTKz-zKvs-2" target="x6Obpxux5yCbTKz-zKvs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-2" value="PLL Initialization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6Obpxux5yCbTKz-zKvs-4" target="x6Obpxux5yCbTKz-zKvs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-4" value="Delay Line Calibration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6Obpxux5yCbTKz-zKvs-6" target="x6Obpxux5yCbTKz-zKvs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-6" value="PHY Reset" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6Obpxux5yCbTKz-zKvs-8" target="x6Obpxux5yCbTKz-zKvs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-8" value="Initialized PHY" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="375" y="500" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6Obpxux5yCbTKz-zKvs-10" target="x6Obpxux5yCbTKz-zKvs-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-10" value="SDRAM Initialization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="600" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6Obpxux5yCbTKz-zKvs-11" target="x6Obpxux5yCbTKz-zKvs-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-11" value="Write Leveling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="700" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6Obpxux5yCbTKz-zKvs-12" target="x6Obpxux5yCbTKz-zKvs-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-12" value="DQS Gate Training" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="800" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6Obpxux5yCbTKz-zKvs-13" target="x6Obpxux5yCbTKz-zKvs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-13" value="Write Leveling 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="900" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6Obpxux5yCbTKz-zKvs-18" target="x6Obpxux5yCbTKz-zKvs-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-18" value="Data Bit Deskew" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1000" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="x6Obpxux5yCbTKz-zKvs-20" target="x6Obpxux5yCbTKz-zKvs-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-20" value="Data Eye Training" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1100" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-21" value="PHY is Ready" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-24" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=180;" vertex="1" parent="1">
+          <mxGeometry x="600" y="202" width="50" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-25" value="Impedance Calibration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="117" y="300" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="x6Obpxux5yCbTKz-zKvs-25" target="x6Obpxux5yCbTKz-zKvs-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="410" as="sourcePoint" />
+            <mxPoint x="-240" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="217" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="x6Obpxux5yCbTKz-zKvs-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="180" as="sourcePoint" />
+            <mxPoint x="190" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="217" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-30" value="PHY Initialization" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="315" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-31" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=180;" vertex="1" parent="1">
+          <mxGeometry x="600" y="598" width="50" height="558" as="geometry" />
+        </mxCell>
+        <mxCell id="x6Obpxux5yCbTKz-zKvs-32" value="Triggered by user after PHY is initialized" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="862" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
