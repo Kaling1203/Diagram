@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-03T12:31:12.677Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="rEOyVhf7ZoGcvbxV_sMK" version="24.3.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-05-03T12:38:34.990Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="2AX8DZCIwEtKtPGe-qMT" version="24.3.1" type="github" pages="4">
   <diagram name="DDR3 PHY" id="UruX_jtSdORVsxLQnjOW">
     <mxGraphModel dx="2189" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -502,11 +502,6 @@
         <mxCell id="frMZeteiWevj0GkbvkkG-8" value="R" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="420" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="frMZeteiWevj0GkbvkkG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frMZeteiWevj0GkbvkkG-9" target="frMZeteiWevj0GkbvkkG-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="330" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="frMZeteiWevj0GkbvkkG-9" value="AXI Master I/F" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-81" y="315" width="120" height="60" as="geometry" />
         </mxCell>
@@ -548,9 +543,6 @@
         <mxCell id="frMZeteiWevj0GkbvkkG-19" value="reorder2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="330" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="frMZeteiWevj0GkbvkkG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frMZeteiWevj0GkbvkkG-20" target="frMZeteiWevj0GkbvkkG-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="frMZeteiWevj0GkbvkkG-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frMZeteiWevj0GkbvkkG-20" target="frMZeteiWevj0GkbvkkG-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -571,6 +563,18 @@
         </mxCell>
         <mxCell id="frMZeteiWevj0GkbvkkG-31" value="DCU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="frMZeteiWevj0GkbvkkG-32" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="frMZeteiWevj0GkbvkkG-20" target="frMZeteiWevj0GkbvkkG-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="210" as="sourcePoint" />
+            <mxPoint x="860" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frMZeteiWevj0GkbvkkG-33" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="frMZeteiWevj0GkbvkkG-9" target="frMZeteiWevj0GkbvkkG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="510" as="sourcePoint" />
+            <mxPoint x="-10" y="460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
