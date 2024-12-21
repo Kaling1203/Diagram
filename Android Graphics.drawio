@@ -490,7 +490,7 @@
         <mxCell id="fws_50bchqmlDG1o5LzW-75" value="+ method(type): type" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="fws_50bchqmlDG1o5LzW-67">
           <mxGeometry y="190" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fws_50bchqmlDG1o5LzW-76" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=elbowEdgeStyle;curved=0;" edge="1" parent="1" source="fws_50bchqmlDG1o5LzW-58" target="fws_50bchqmlDG1o5LzW-48">
+        <mxCell id="fws_50bchqmlDG1o5LzW-76" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fws_50bchqmlDG1o5LzW-58" target="fws_50bchqmlDG1o5LzW-48">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="2150" y="648" as="sourcePoint" />
             <mxPoint x="2310" y="648" as="targetPoint" />
@@ -562,7 +562,7 @@
             <mxPoint x="1980" y="718" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fws_50bchqmlDG1o5LzW-97" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="fws_50bchqmlDG1o5LzW-87" target="fws_50bchqmlDG1o5LzW-58">
+        <mxCell id="fws_50bchqmlDG1o5LzW-97" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="fws_50bchqmlDG1o5LzW-87" target="fws_50bchqmlDG1o5LzW-58">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1840" y="828" as="sourcePoint" />
             <mxPoint x="2000" y="828" as="targetPoint" />
