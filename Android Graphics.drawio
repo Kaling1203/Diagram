@@ -1551,7 +1551,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V7HsPYoB1sqUGy4XXf0p" name="Window">
-    <mxGraphModel dx="2586" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2803" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1708,6 +1708,15 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="730" y="930" as="sourcePoint" />
             <mxPoint x="890" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gCdXvn2-t8JssOdKrczu-29" value="&lt;div&gt;&lt;font color=&quot;#ff3333&quot;&gt;Also called AHardwareBuffer&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Refer to https://zhuanlan.zhihu.com/p/143980401 for detailed description&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="520" width="280" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="gCdXvn2-t8JssOdKrczu-30" value="" style="endArrow=open;endFill=1;html=1;rounded=0;shape=link;dashed=1;" edge="1" parent="1" source="gCdXvn2-t8JssOdKrczu-17" target="gCdXvn2-t8JssOdKrczu-29">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1140" y="780" as="sourcePoint" />
+            <mxPoint x="1300" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
