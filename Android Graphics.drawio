@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.4" pages="2">
   <diagram name="Rendering" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="2403" dy="3878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2083" dy="3701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1712,6 +1712,20 @@
         <mxCell id="ji7ZVwzM94ziT6rxDHQb-3" value="Linked by draw()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ji7ZVwzM94ziT6rxDHQb-2">
           <mxGeometry x="-0.0475" relative="1" as="geometry">
             <mxPoint x="10" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ji7ZVwzM94ziT6rxDHQb-4" value="" style="endArrow=open;endFill=1;html=1;rounded=1;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;" edge="1" parent="1" source="oHORZoksGvPY0gbzng2A-40" target="otttcu7d9Ce8A3Ge1HaT-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2740" y="-320" as="sourcePoint" />
+            <mxPoint x="2900" y="-320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2550" y="-430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ji7ZVwzM94ziT6rxDHQb-5" value="renderNode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ji7ZVwzM94ziT6rxDHQb-4">
+          <mxGeometry x="-0.5414" y="-3" relative="1" as="geometry">
+            <mxPoint x="-203" y="-157" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
