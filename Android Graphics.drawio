@@ -2172,7 +2172,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BMG8KSNAFLpic28lJbgY-12" value="VkPhysicalDevice (Pointer)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry y="404" width="240" height="52" as="geometry" />
+          <mxGeometry y="524" width="240" height="52" as="geometry" />
         </mxCell>
         <mxCell id="BMG8KSNAFLpic28lJbgY-13" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="BMG8KSNAFLpic28lJbgY-12" target="b90BkKdMAo5SBSBrFzKI-2">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -2222,19 +2222,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BMG8KSNAFLpic28lJbgY-26" value="VkPhysicalDeviceFeatures" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="480" y="600" width="280" height="130" as="geometry" />
+          <mxGeometry x="480" y="600" width="320" height="130" as="geometry" />
         </mxCell>
         <mxCell id="BMG8KSNAFLpic28lJbgY-27" value="+ robustBufferAccess: VkBool32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BMG8KSNAFLpic28lJbgY-26">
-          <mxGeometry y="26" width="280" height="26" as="geometry" />
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BMG8KSNAFLpic28lJbgY-28" value="+ fullDrawIndexUint32: VkBool32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BMG8KSNAFLpic28lJbgY-26">
-          <mxGeometry y="52" width="280" height="26" as="geometry" />
+          <mxGeometry y="52" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BMG8KSNAFLpic28lJbgY-30" value="......" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BMG8KSNAFLpic28lJbgY-26">
-          <mxGeometry y="78" width="280" height="26" as="geometry" />
+          <mxGeometry y="78" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BMG8KSNAFLpic28lJbgY-29" value="+  inheritedQueries: VkBool32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="BMG8KSNAFLpic28lJbgY-26">
-          <mxGeometry y="104" width="280" height="26" as="geometry" />
+          <mxGeometry y="104" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="BMG8KSNAFLpic28lJbgY-31" value="vkGetPhysicalDeviceFeatures()" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="BMG8KSNAFLpic28lJbgY-12" target="BMG8KSNAFLpic28lJbgY-26">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="710" as="sourcePoint" />
+            <mxPoint x="400" y="710" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
