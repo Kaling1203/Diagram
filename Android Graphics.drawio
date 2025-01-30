@@ -2002,7 +2002,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0yA1V-5MDsMUjsDQ3oTR" name="Vulkan">
-    <mxGraphModel dx="3783" dy="2251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3538" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2414,7 +2414,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pYnN4pZnXN7HLuU-BQrp-50" value="VkQueue" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="-620" y="800" width="240" height="52" as="geometry" />
+          <mxGeometry x="-640" y="800" width="280" height="52" as="geometry" />
         </mxCell>
         <mxCell id="pYnN4pZnXN7HLuU-BQrp-51" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-45" target="pYnN4pZnXN7HLuU-BQrp-50">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -2472,6 +2472,20 @@
         <mxCell id="JnLnCFhykBpUsnYh0MjW-10" value="vkCreateAndroidSurfaceKHR()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JnLnCFhykBpUsnYh0MjW-9">
           <mxGeometry x="0.014" y="5" relative="1" as="geometry">
             <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JnLnCFhykBpUsnYh0MjW-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-50" target="pYnN4pZnXN7HLuU-BQrp-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-770" y="630" as="sourcePoint" />
+            <mxPoint x="-720" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-720" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JnLnCFhykBpUsnYh0MjW-12" value="Implicit related" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JnLnCFhykBpUsnYh0MjW-11">
+          <mxGeometry x="-0.176" y="-2" relative="1" as="geometry">
+            <mxPoint x="-3" y="-44" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
