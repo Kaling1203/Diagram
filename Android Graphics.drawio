@@ -2092,7 +2092,7 @@
             <mxPoint x="862" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b90BkKdMAo5SBSBrFzKI-35" value="ppEnabledExtensionNames" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b90BkKdMAo5SBSBrFzKI-34" vertex="1" connectable="0">
+        <mxCell id="b90BkKdMAo5SBSBrFzKI-35" value="vkEnumerateInstanceExtensionProperties()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b90BkKdMAo5SBSBrFzKI-34" vertex="1" connectable="0">
           <mxGeometry x="-0.0722" y="2" relative="1" as="geometry">
             <mxPoint x="472" y="-48" as="offset" />
           </mxGeometry>
@@ -2121,7 +2121,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b90BkKdMAo5SBSBrFzKI-42" value="ppEnabledLayerNames" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b90BkKdMAo5SBSBrFzKI-41" vertex="1" connectable="0">
+        <mxCell id="b90BkKdMAo5SBSBrFzKI-42" value="vkEnumerateInstanceLayerProperties()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="b90BkKdMAo5SBSBrFzKI-41" vertex="1" connectable="0">
           <mxGeometry x="-0.1083" y="2" relative="1" as="geometry">
             <mxPoint x="295" y="-48" as="offset" />
           </mxGeometry>
@@ -2166,13 +2166,6 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-380" y="135" as="sourcePoint" />
             <mxPoint x="-30" y="-450" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BMG8KSNAFLpic28lJbgY-11" value="vkCreateDebugUtilsMessengerEXT()" style="endArrow=block;html=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;endFill=1;" parent="1" source="b90BkKdMAo5SBSBrFzKI-2" target="BMG8KSNAFLpic28lJbgY-1" edge="1">
-          <mxGeometry x="0.3657" width="160" relative="1" as="geometry">
-            <mxPoint x="280" y="-140" as="sourcePoint" />
-            <mxPoint x="-160" y="190" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -2246,6 +2239,13 @@
           <mxGeometry x="0.0188" width="160" relative="1" as="geometry">
             <mxPoint x="20" y="450" as="sourcePoint" />
             <mxPoint x="399" y="710" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-3" value="vkCreateDebugUtilsMessengerEXT()" style="endArrow=block;endSize=12;html=1;rounded=0;endFill=1;" edge="1" parent="1" source="b90BkKdMAo5SBSBrFzKI-2" target="BMG8KSNAFLpic28lJbgY-1">
+          <mxGeometry x="0.3657" width="160" relative="1" as="geometry">
+            <mxPoint x="-120" y="-130" as="sourcePoint" />
+            <mxPoint x="10" y="-324" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
