@@ -2279,6 +2279,47 @@
             <mxPoint x="-78" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-13" value="VkQueueFlagBits" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="1" width="320" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-14" value="VK_QUEUE_GRAPHICS_BIT = 0x000000001" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pYnN4pZnXN7HLuU-BQrp-13">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-15" value="VK_QUEUE_COMPUTE_BIT = 0x00000002" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pYnN4pZnXN7HLuU-BQrp-13">
+          <mxGeometry y="52" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-16" value="VK_QUEUE_TRANSFER_BIT = 0x00000004" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pYnN4pZnXN7HLuU-BQrp-13">
+          <mxGeometry y="78" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-18" value="VK_QUEUE_SPARSE_BINDING_BIT = 0x00000008" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pYnN4pZnXN7HLuU-BQrp-13">
+          <mxGeometry y="104" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-20" value="VK_QUEUE_PROTECTED_BIT = 0x00000010" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pYnN4pZnXN7HLuU-BQrp-13">
+          <mxGeometry y="130" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-21" value="VK_QUEUE_VIDEO_DECODE_BIT_KHR = 0x00000020" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pYnN4pZnXN7HLuU-BQrp-13">
+          <mxGeometry y="156" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-19" value="VK_QUEUE_VIDEO_ENCODE_BIT_KHR = 0x00000040" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pYnN4pZnXN7HLuU-BQrp-13">
+          <mxGeometry y="182" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-17" value="VK_QUEUE_OPTICAL_FLOW_BIT_NV = 0x00000100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pYnN4pZnXN7HLuU-BQrp-13">
+          <mxGeometry y="208" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-22" value="VK_QUEUE_FLAG_BITS_MAX_ENUM = 0x7FFFFFFF" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="pYnN4pZnXN7HLuU-BQrp-13">
+          <mxGeometry y="234" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-23" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-5" target="pYnN4pZnXN7HLuU-BQrp-13">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="-1580" y="60" as="sourcePoint" />
+            <mxPoint x="-1420" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-24" value="queueFlags" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pYnN4pZnXN7HLuU-BQrp-23">
+          <mxGeometry x="0.0639" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
