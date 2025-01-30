@@ -2402,7 +2402,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pYnN4pZnXN7HLuU-BQrp-48" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-32" target="pYnN4pZnXN7HLuU-BQrp-45">
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-48" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-32" target="pYnN4pZnXN7HLuU-BQrp-45">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="320" y="610" as="sourcePoint" />
             <mxPoint x="480" y="610" as="targetPoint" />
@@ -2416,7 +2416,7 @@
         <mxCell id="pYnN4pZnXN7HLuU-BQrp-50" value="VkQueue" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="-620" y="800" width="240" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="pYnN4pZnXN7HLuU-BQrp-51" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-45" target="pYnN4pZnXN7HLuU-BQrp-50">
+        <mxCell id="pYnN4pZnXN7HLuU-BQrp-51" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-45" target="pYnN4pZnXN7HLuU-BQrp-50">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="440" y="910" as="sourcePoint" />
             <mxPoint x="600" y="910" as="targetPoint" />
