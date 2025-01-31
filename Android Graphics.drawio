@@ -2002,7 +2002,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0yA1V-5MDsMUjsDQ3oTR" name="Vulkan">
-    <mxGraphModel dx="4781" dy="2333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5674" dy="2826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2757,6 +2757,39 @@
         <mxCell id="JnLnCFhykBpUsnYh0MjW-76" value="vkGetSwapchainImagesKHR()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JnLnCFhykBpUsnYh0MjW-75">
           <mxGeometry x="-0.0031" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JnLnCFhykBpUsnYh0MjW-77" value="" style="endArrow=open;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;elbow=vertical;endFill=0;startArrow=classic;startFill=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="JnLnCFhykBpUsnYh0MjW-49" target="JnLnCFhykBpUsnYh0MjW-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-660" y="1105" as="sourcePoint" />
+            <mxPoint x="-660" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JnLnCFhykBpUsnYh0MjW-78" value="related" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JnLnCFhykBpUsnYh0MjW-77">
+          <mxGeometry x="-0.176" y="-2" relative="1" as="geometry">
+            <mxPoint x="7" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JnLnCFhykBpUsnYh0MjW-79" value="" style="endArrow=open;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;elbow=vertical;endFill=0;startArrow=classic;startFill=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="JnLnCFhykBpUsnYh0MjW-49" target="JnLnCFhykBpUsnYh0MjW-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-440" y="1245" as="sourcePoint" />
+            <mxPoint x="-440" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JnLnCFhykBpUsnYh0MjW-80" value="related" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JnLnCFhykBpUsnYh0MjW-79">
+          <mxGeometry x="-0.176" y="-2" relative="1" as="geometry">
+            <mxPoint x="-3" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JnLnCFhykBpUsnYh0MjW-81" value="" style="endArrow=open;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;elbow=vertical;endFill=0;startArrow=classic;startFill=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="JnLnCFhykBpUsnYh0MjW-49" target="JnLnCFhykBpUsnYh0MjW-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-500" y="1285" as="sourcePoint" />
+            <mxPoint x="-500" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JnLnCFhykBpUsnYh0MjW-82" value="related" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JnLnCFhykBpUsnYh0MjW-81">
+          <mxGeometry x="-0.176" y="-2" relative="1" as="geometry">
+            <mxPoint x="-9" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
