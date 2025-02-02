@@ -2002,7 +2002,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0yA1V-5MDsMUjsDQ3oTR" name="Vulkan">
-    <mxGraphModel dx="5986" dy="2059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6088" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2635,7 +2635,7 @@
           <mxGeometry x="131" y="907" width="240" height="52" as="geometry" />
         </mxCell>
         <mxCell id="JnLnCFhykBpUsnYh0MjW-49" value="VkSwapchainCreateInfoKHR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="551" y="686" width="320" height="494" as="geometry" />
+          <mxGeometry x="561" y="686" width="320" height="494" as="geometry" />
         </mxCell>
         <mxCell id="JnLnCFhykBpUsnYh0MjW-50" value="+ sType: VkStructureType " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="JnLnCFhykBpUsnYh0MjW-49" vertex="1">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
@@ -2763,7 +2763,7 @@
         </mxCell>
         <mxCell id="JnLnCFhykBpUsnYh0MjW-80" value="related" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JnLnCFhykBpUsnYh0MjW-79" vertex="1" connectable="0">
           <mxGeometry x="-0.176" y="-2" relative="1" as="geometry">
-            <mxPoint x="-3" y="-19" as="offset" />
+            <mxPoint x="6" y="12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JnLnCFhykBpUsnYh0MjW-81" value="" style="endArrow=open;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;elbow=vertical;endFill=0;startArrow=classic;startFill=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="JnLnCFhykBpUsnYh0MjW-49" target="JnLnCFhykBpUsnYh0MjW-15" edge="1">
@@ -2774,7 +2774,7 @@
         </mxCell>
         <mxCell id="JnLnCFhykBpUsnYh0MjW-82" value="related" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JnLnCFhykBpUsnYh0MjW-81" vertex="1" connectable="0">
           <mxGeometry x="-0.176" y="-2" relative="1" as="geometry">
-            <mxPoint x="-9" y="-10" as="offset" />
+            <mxPoint x="-14" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JnLnCFhykBpUsnYh0MjW-83" value="VkImageView" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
