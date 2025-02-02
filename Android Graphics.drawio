@@ -2002,7 +2002,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0yA1V-5MDsMUjsDQ3oTR" name="Vulkan">
-    <mxGraphModel dx="6653" dy="2428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6088" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4170,7 +4170,7 @@
             <mxPoint x="-1467" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OiEspNHrWg1IQV7Q5j3b-24" value="&lt;b style=&quot;color: light-dark(rgb(224, 27, 36), rgb(237, 237, 237));&quot;&gt;vkQueueSubmit()&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OiEspNHrWg1IQV7Q5j3b-23">
+        <mxCell id="OiEspNHrWg1IQV7Q5j3b-24" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;vkQueueSubmit()&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OiEspNHrWg1IQV7Q5j3b-23">
           <mxGeometry x="0.2124" y="2" relative="1" as="geometry">
             <mxPoint x="2" y="25" as="offset" />
           </mxGeometry>
