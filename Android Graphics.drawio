@@ -2002,7 +2002,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0yA1V-5MDsMUjsDQ3oTR" name="Vulkan">
-    <mxGraphModel dx="10498" dy="4552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="12060" dy="5415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2409,7 +2409,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pYnN4pZnXN7HLuU-BQrp-50" value="VkQueue" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="-1465" y="860" width="240" height="52" as="geometry" />
+          <mxGeometry x="-1360" y="1080" width="240" height="52" as="geometry" />
         </mxCell>
         <mxCell id="pYnN4pZnXN7HLuU-BQrp-51" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="pYnN4pZnXN7HLuU-BQrp-45" target="pYnN4pZnXN7HLuU-BQrp-50" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -2417,7 +2417,7 @@
             <mxPoint x="-733" y="939" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-320" y="740" />
-              <mxPoint x="-1345" y="740" />
+              <mxPoint x="-1240" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4007,6 +4007,93 @@
         <mxCell id="B4BfLe1bYTUR8c2VlVRz-130" value="queueFlags" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B4BfLe1bYTUR8c2VlVRz-129">
           <mxGeometry x="-0.1722" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-131" value="VkSemaphore" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-721" y="984" width="240" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-132" value="VkFence" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-1001" y="988" width="240" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-133" value="VkSemaphoreCreateInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="800" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-134" value="+ sType: VkStructureType " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B4BfLe1bYTUR8c2VlVRz-133">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-135" value="+ pNext: const void * " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B4BfLe1bYTUR8c2VlVRz-133">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-136" value="+ flags: VkSemaphoreCreateFlags" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B4BfLe1bYTUR8c2VlVRz-133">
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-137" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=elbowEdgeStyle;elbow=vertical;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-45" target="B4BfLe1bYTUR8c2VlVRz-131">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-750" y="1150" as="sourcePoint" />
+            <mxPoint x="-590" y="1150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-460" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-147" value="vkCreateSemaphore()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B4BfLe1bYTUR8c2VlVRz-137">
+          <mxGeometry x="0.8541" y="2" relative="1" as="geometry">
+            <mxPoint y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-138" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=elbowEdgeStyle;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="B4BfLe1bYTUR8c2VlVRz-133" target="B4BfLe1bYTUR8c2VlVRz-131">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-880" y="1220" as="sourcePoint" />
+            <mxPoint x="-720" y="1220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-450" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-148" value="vkCreateSemaphore()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B4BfLe1bYTUR8c2VlVRz-138">
+          <mxGeometry x="-0.187" y="2" relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-139" value="VkFenceCreateInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="800" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-140" value="+ sType: VkStructureType " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B4BfLe1bYTUR8c2VlVRz-139">
+          <mxGeometry y="26" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-141" value="+ pNext: const void * " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B4BfLe1bYTUR8c2VlVRz-139">
+          <mxGeometry y="52" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-142" value="+ flags: VkSemaphoreCreateFlags" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="B4BfLe1bYTUR8c2VlVRz-139">
+          <mxGeometry y="78" width="240" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-143" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="B4BfLe1bYTUR8c2VlVRz-139" target="B4BfLe1bYTUR8c2VlVRz-132">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-930" y="1150" as="sourcePoint" />
+            <mxPoint x="-770" y="1150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-740" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-146" value="vkCreateFence()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B4BfLe1bYTUR8c2VlVRz-143">
+          <mxGeometry x="-0.187" y="2" relative="1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-144" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-45" target="B4BfLe1bYTUR8c2VlVRz-132">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1060" y="1260" as="sourcePoint" />
+            <mxPoint x="-900" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-320" y="740" />
+              <mxPoint x="-881" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-145" value="vkCreateFence()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B4BfLe1bYTUR8c2VlVRz-144">
+          <mxGeometry x="0.9007" y="-2" relative="1" as="geometry">
+            <mxPoint y="6" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
