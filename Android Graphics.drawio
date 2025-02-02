@@ -3877,7 +3877,7 @@
         </mxCell>
         <mxCell id="B4BfLe1bYTUR8c2VlVRz-94" value="commandPool" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B4BfLe1bYTUR8c2VlVRz-93">
           <mxGeometry x="0.0972" relative="1" as="geometry">
-            <mxPoint x="10" y="94" as="offset" />
+            <mxPoint x="7" y="89" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B4BfLe1bYTUR8c2VlVRz-95" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=elbowEdgeStyle;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="B4BfLe1bYTUR8c2VlVRz-87" target="B4BfLe1bYTUR8c2VlVRz-82">
@@ -3891,7 +3891,7 @@
         </mxCell>
         <mxCell id="B4BfLe1bYTUR8c2VlVRz-96" value="vkAllocateCommandBuffers()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B4BfLe1bYTUR8c2VlVRz-95">
           <mxGeometry x="-0.1046" y="2" relative="1" as="geometry">
-            <mxPoint x="2" y="8" as="offset" />
+            <mxPoint x="2" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B4BfLe1bYTUR8c2VlVRz-97" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-45" target="B4BfLe1bYTUR8c2VlVRz-82">
