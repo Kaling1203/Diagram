@@ -2002,7 +2002,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0yA1V-5MDsMUjsDQ3oTR" name="Vulkan">
-    <mxGraphModel dx="6203" dy="2179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6653" dy="2428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2286,7 +2286,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pYnN4pZnXN7HLuU-BQrp-13" value="VkQueueFlagBits" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-1850" y="162" width="320" height="260" as="geometry" />
+          <mxGeometry x="-1380" y="-90" width="320" height="260" as="geometry" />
         </mxCell>
         <mxCell id="pYnN4pZnXN7HLuU-BQrp-14" value="VK_QUEUE_GRAPHICS_BIT = 0x000000001" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pYnN4pZnXN7HLuU-BQrp-13" vertex="1">
           <mxGeometry y="26" width="320" height="26" as="geometry" />
@@ -2314,17 +2314,6 @@
         </mxCell>
         <mxCell id="pYnN4pZnXN7HLuU-BQrp-22" value="VK_QUEUE_FLAG_BITS_MAX_ENUM = 0x7FFFFFFF" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="pYnN4pZnXN7HLuU-BQrp-13" vertex="1">
           <mxGeometry y="234" width="320" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="pYnN4pZnXN7HLuU-BQrp-23" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="pYnN4pZnXN7HLuU-BQrp-5" target="pYnN4pZnXN7HLuU-BQrp-13" edge="1">
-          <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="-1570" y="292" as="sourcePoint" />
-            <mxPoint x="-1720" y="292" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="pYnN4pZnXN7HLuU-BQrp-24" value="queueFlags" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pYnN4pZnXN7HLuU-BQrp-23" vertex="1" connectable="0">
-          <mxGeometry x="0.0639" y="-2" relative="1" as="geometry">
-            <mxPoint x="10" y="-1" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="pYnN4pZnXN7HLuU-BQrp-25" value="VkDeviceQueueCreateInfo" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="-1360" y="439" width="280" height="182" as="geometry" />
@@ -3815,7 +3804,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B4BfLe1bYTUR8c2VlVRz-85" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-45" target="B4BfLe1bYTUR8c2VlVRz-76">
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-85" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-45" target="B4BfLe1bYTUR8c2VlVRz-76">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-730" y="1060" as="sourcePoint" />
             <mxPoint x="-570" y="1060" as="targetPoint" />
@@ -4007,6 +3996,17 @@
         <mxCell id="B4BfLe1bYTUR8c2VlVRz-128" value="&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(224, 27, 36), rgb(237, 237, 237));&quot;&gt;vkBeginCommandBuffer()&lt;/span&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B4BfLe1bYTUR8c2VlVRz-127">
           <mxGeometry x="0.2124" y="2" relative="1" as="geometry">
             <mxPoint x="-159" y="335" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-129" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-13" target="pYnN4pZnXN7HLuU-BQrp-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1590" y="250" as="sourcePoint" />
+            <mxPoint x="-1430" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-130" value="queueFlags" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B4BfLe1bYTUR8c2VlVRz-129">
+          <mxGeometry x="-0.1722" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
