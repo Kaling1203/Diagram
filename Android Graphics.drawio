@@ -2002,7 +2002,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0yA1V-5MDsMUjsDQ3oTR" name="Vulkan">
-    <mxGraphModel dx="5738" dy="1922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5894" dy="2008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2434,7 +2434,7 @@
         </mxCell>
         <mxCell id="pYnN4pZnXN7HLuU-BQrp-52" value="vkGetDeviceQueue()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="pYnN4pZnXN7HLuU-BQrp-51" vertex="1" connectable="0">
           <mxGeometry x="0.8878" y="-2" relative="1" as="geometry">
-            <mxPoint x="-10" y="-2" as="offset" />
+            <mxPoint x="1" y="-18" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JnLnCFhykBpUsnYh0MjW-1" value="VkSurfaceKHR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
@@ -3885,13 +3885,13 @@
             <mxPoint x="-780" y="1340" as="sourcePoint" />
             <mxPoint x="-620" y="1340" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-850" y="1090" />
+              <mxPoint x="-840" y="1090" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="B4BfLe1bYTUR8c2VlVRz-96" value="vkAllocateCommandBuffers()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B4BfLe1bYTUR8c2VlVRz-95">
           <mxGeometry x="-0.1046" y="2" relative="1" as="geometry">
-            <mxPoint x="2" y="21" as="offset" />
+            <mxPoint x="2" y="15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B4BfLe1bYTUR8c2VlVRz-97" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="pYnN4pZnXN7HLuU-BQrp-45" target="B4BfLe1bYTUR8c2VlVRz-82">
