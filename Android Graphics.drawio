@@ -3993,7 +3993,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="B4BfLe1bYTUR8c2VlVRz-128" value="&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(224, 27, 36), rgb(237, 237, 237));&quot;&gt;vkBeginCommandBuffer()&lt;/span&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="B4BfLe1bYTUR8c2VlVRz-127" vertex="1" connectable="0">
+        <mxCell id="B4BfLe1bYTUR8c2VlVRz-128" value="&lt;b style=&quot;color: light-dark(rgb(224, 27, 36), rgb(237, 237, 237));&quot;&gt;vkCmdBindPipeline()&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="B4BfLe1bYTUR8c2VlVRz-127" vertex="1" connectable="0">
           <mxGeometry x="0.2124" y="2" relative="1" as="geometry">
             <mxPoint x="-159" y="335" as="offset" />
           </mxGeometry>
