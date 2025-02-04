@@ -2002,7 +2002,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0yA1V-5MDsMUjsDQ3oTR" name="Vulkan">
-    <mxGraphModel dx="9360" dy="3977" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6166" dy="2179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3856,7 +3856,7 @@
         </mxCell>
         <mxCell id="B4BfLe1bYTUR8c2VlVRz-96" value="vkAllocateCommandBuffers()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="B4BfLe1bYTUR8c2VlVRz-95" vertex="1" connectable="0">
           <mxGeometry x="-0.1046" y="2" relative="1" as="geometry">
-            <mxPoint x="2" y="15" as="offset" />
+            <mxPoint x="-16" y="16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B4BfLe1bYTUR8c2VlVRz-97" value="" style="endArrow=block;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="pYnN4pZnXN7HLuU-BQrp-45" target="B4BfLe1bYTUR8c2VlVRz-82" edge="1">
