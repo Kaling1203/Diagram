@@ -2002,7 +2002,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0yA1V-5MDsMUjsDQ3oTR" name="Vulkan">
-    <mxGraphModel dx="7053" dy="2179" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="8571" dy="3018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2078,7 +2078,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="b90BkKdMAo5SBSBrFzKI-26" value="VkExtensionProperties" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="-120" y="-397" width="280" height="78" as="geometry" />
+          <mxGeometry x="-80" y="-397" width="280" height="78" as="geometry" />
         </mxCell>
         <mxCell id="b90BkKdMAo5SBSBrFzKI-27" value="+ extensionName: char[] " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="b90BkKdMAo5SBSBrFzKI-26" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -2480,7 +2480,7 @@
         </mxCell>
         <mxCell id="JnLnCFhykBpUsnYh0MjW-14" value="vkEnumerateDeviceExtensionProperties()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JnLnCFhykBpUsnYh0MjW-13" vertex="1" connectable="0">
           <mxGeometry x="-0.3443" y="-2" relative="1" as="geometry">
-            <mxPoint y="-4" as="offset" />
+            <mxPoint x="108" y="-163" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JnLnCFhykBpUsnYh0MjW-15" value="VkSurfaceCapabilitiesKHR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;rounded=1;" parent="1" vertex="1">
@@ -4330,6 +4330,27 @@
         <mxCell id="OiEspNHrWg1IQV7Q5j3b-62" value="vkGetBufferMemoryRequirements()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OiEspNHrWg1IQV7Q5j3b-61">
           <mxGeometry x="0.8188" y="4" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OiEspNHrWg1IQV7Q5j3b-63" value="VkPhysicalDeviceMemoryProperties" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;curveFitting=1;jiggle=2;rounded=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-2160" y="-161" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OiEspNHrWg1IQV7Q5j3b-64" value="+ memoryTypeCount: uint32_t" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OiEspNHrWg1IQV7Q5j3b-63">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OiEspNHrWg1IQV7Q5j3b-65" value="+ memoryTypes: VkMemoryType[32]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OiEspNHrWg1IQV7Q5j3b-63">
+          <mxGeometry y="52" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OiEspNHrWg1IQV7Q5j3b-67" value="+ memoryHeapCount: uint32_t" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OiEspNHrWg1IQV7Q5j3b-63">
+          <mxGeometry y="78" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OiEspNHrWg1IQV7Q5j3b-66" value="+ memoryHeaps: VkMemoryHeap[16]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="OiEspNHrWg1IQV7Q5j3b-63">
+          <mxGeometry y="104" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="OiEspNHrWg1IQV7Q5j3b-68" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1" source="BMG8KSNAFLpic28lJbgY-12" target="OiEspNHrWg1IQV7Q5j3b-63">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1590" y="-410" as="sourcePoint" />
+            <mxPoint x="-1430" y="-410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
