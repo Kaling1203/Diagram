@@ -4468,6 +4468,20 @@
             <mxPoint x="17" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="OiEspNHrWg1IQV7Q5j3b-95" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=elbowEdgeStyle;startArrow=open;startFill=0;dashed=1;" edge="1" parent="1" source="OiEspNHrWg1IQV7Q5j3b-52" target="B4BfLe1bYTUR8c2VlVRz-82">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1520" y="660" as="sourcePoint" />
+            <mxPoint x="-1360" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1440" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OiEspNHrWg1IQV7Q5j3b-96" value="&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(224, 27, 36), rgb(237, 237, 237));&quot;&gt;vkCmdBindVertexBuffers()&lt;/span&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OiEspNHrWg1IQV7Q5j3b-95">
+          <mxGeometry x="-0.2222" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
