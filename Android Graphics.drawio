@@ -2002,7 +2002,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0yA1V-5MDsMUjsDQ3oTR" name="Vulkan">
-    <mxGraphModel dx="6350" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="6257" dy="1739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4462,19 +4462,19 @@
             <mxPoint x="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OiEspNHrWg1IQV7Q5j3b-95" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;startArrow=open;startFill=0;dashed=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OiEspNHrWg1IQV7Q5j3b-52" target="B4BfLe1bYTUR8c2VlVRz-82" edge="1">
+        <mxCell id="OiEspNHrWg1IQV7Q5j3b-95" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;startArrow=open;startFill=0;dashed=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OiEspNHrWg1IQV7Q5j3b-52" target="B4BfLe1bYTUR8c2VlVRz-82" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-1520" y="660" as="sourcePoint" />
             <mxPoint x="-1590" y="950" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-2100" y="690" />
-              <mxPoint x="-1472" y="690" />
+              <mxPoint x="-1592" y="690" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OiEspNHrWg1IQV7Q5j3b-96" value="&lt;div&gt;&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(224, 27, 36), rgb(237, 237, 237));&quot;&gt;vkCmdBindVertexBuffers()&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(224, 27, 36), rgb(237, 237, 237));&quot;&gt;vkCmdBindIndexBuffer()&lt;br&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OiEspNHrWg1IQV7Q5j3b-95" vertex="1" connectable="0">
           <mxGeometry x="-0.2222" y="3" relative="1" as="geometry">
-            <mxPoint x="-186" y="-1" as="offset" />
+            <mxPoint x="-68" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fMsRpHfLDjzhJ5sG8z_m-1" value="VkDescriptorSetLayout" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
