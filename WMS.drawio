@@ -1110,7 +1110,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jHsJZlIXWTNZp4MwnPVc" name="Class">
-    <mxGraphModel dx="3962" dy="2836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2406" dy="1968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1311,7 +1311,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tO41v_vD8Q6P4yzmR5bi-1" value="WindowToken" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="tO41v_vD8Q6P4yzmR5bi-1" value="WindowToken/ActivityRecord" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1240" y="80" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="tO41v_vD8Q6P4yzmR5bi-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=12 12;shadow=1;" edge="1" parent="1">
