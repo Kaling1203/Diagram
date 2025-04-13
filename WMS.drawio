@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.2.6" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.2.6" pages="5">
   <diagram name="Class Hierachy" id="cf1-qEHldZOhXNxY4lXl">
     <mxGraphModel dx="2795" dy="1085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1366,6 +1366,68 @@
             <mxPoint x="1730" y="720" as="sourcePoint" />
             <mxPoint x="1890" y="720" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-HiItxvLGvIGAkCAbfyf" name="DrawState State Machine">
+    <mxGraphModel dx="1556" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-2" value="NO_SURFACE" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-3" value="DRAW_PENDING" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-4" value="COMMIT_DRAW_PENDING" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-5" value="READY_TO_SHOW" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="560" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-6" value="HAS_DRAWN" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="200" y="720" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-7" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 70%;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;font&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;This is set when there is no Surface&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="100" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="8oC_gTCAE7PCd8u6D1Ad-2" target="8oC_gTCAE7PCd8u6D1Ad-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="320" as="sourcePoint" />
+            <mxPoint x="730" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="8oC_gTCAE7PCd8u6D1Ad-3" target="8oC_gTCAE7PCd8u6D1Ad-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="170" as="sourcePoint" />
+            <mxPoint x="310" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="8oC_gTCAE7PCd8u6D1Ad-4" target="8oC_gTCAE7PCd8u6D1Ad-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="330" as="sourcePoint" />
+            <mxPoint x="310" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="8oC_gTCAE7PCd8u6D1Ad-5" target="8oC_gTCAE7PCd8u6D1Ad-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="340" as="sourcePoint" />
+            <mxPoint x="320" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-12" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 70%;&quot;&gt;&lt;i&gt;&lt;font style=&quot;font-size: 14px; line-height: 70%;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;This is set after the Surface has been created but before the window has been drawn. During this time the surface is hidden.&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-13" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 70%;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;font&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;This is set after the window has finished drawing for the first time but before its surface is shown.&amp;nbsp; The surface will be displayed when the next layout is run.&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="380" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-14" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 70%;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;font&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;This is set during the time after the window&#39;s drawing has been committed, and before its surface is actually shown.&amp;nbsp; It is used to delay showing the surface until all windows in a token are ready to be shown.&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="540" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8oC_gTCAE7PCd8u6D1Ad-15" value="&lt;div style=&quot;line-height: 70%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 70%;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&lt;font&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Set when the window has been shown in the screen the first time. &lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;&lt;/h1&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="730" width="300" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
