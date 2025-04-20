@@ -1110,7 +1110,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jHsJZlIXWTNZp4MwnPVc" name="Class">
-    <mxGraphModel dx="3073" dy="2340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3244" dy="2435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1351,7 +1351,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gyCz4Cm0JIcmoQ7_Rn17-8" value="Binder" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="gyCz4Cm0JIcmoQ7_Rn17-3" target="fWApUHkLuSm6QCWC8-RO-25">
+        <mxCell id="gyCz4Cm0JIcmoQ7_Rn17-8" value="Binder" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;curved=0;" edge="1" parent="1" source="gyCz4Cm0JIcmoQ7_Rn17-3" target="fWApUHkLuSm6QCWC8-RO-25">
           <mxGeometry x="-0.2132" width="160" relative="1" as="geometry">
             <mxPoint x="880" y="870" as="sourcePoint" />
             <mxPoint x="1040" y="870" as="targetPoint" />
