@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14" pages="6">
   <diagram name="Rendering" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2083" dy="3701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -5465,6 +5465,63 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="56BRLfXCpCcOhBilNyrT" name="Font">
+    <mxGraphModel dx="1554" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="abivQID82cbSEpm_Q3cS-1" value="Typeface" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-5" value="FontCollection" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="abivQID82cbSEpm_Q3cS-1" target="abivQID82cbSEpm_Q3cS-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="420" as="sourcePoint" />
+            <mxPoint x="500" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-7" value="fFontCollection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="abivQID82cbSEpm_Q3cS-6">
+          <mxGeometry x="-0.0931" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="110" y="550" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-8" value="FontFamily" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#9673a6;" vertex="1" parent="abivQID82cbSEpm_Q3cS-12">
+          <mxGeometry width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-11" value="FontFamily" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#9673a6;" vertex="1" parent="abivQID82cbSEpm_Q3cS-12">
+          <mxGeometry x="10" y="10" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="abivQID82cbSEpm_Q3cS-5" target="abivQID82cbSEpm_Q3cS-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="470" as="sourcePoint" />
+            <mxPoint x="530" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-14" value="mMaybeSharedFamilies" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="abivQID82cbSEpm_Q3cS-13">
+          <mxGeometry x="-0.0612" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="960" y="630" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-15" value="HWUI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="abivQID82cbSEpm_Q3cS-18">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-16" value="Minikin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="abivQID82cbSEpm_Q3cS-18">
+          <mxGeometry y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-17" value="Skia" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="abivQID82cbSEpm_Q3cS-18">
+          <mxGeometry y="120" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
