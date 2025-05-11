@@ -5473,6 +5473,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="abivQID82cbSEpm_Q3cS-105" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-310" width="200" height="220" as="geometry" />
+        </mxCell>
         <mxCell id="abivQID82cbSEpm_Q3cS-1" value="Typeface" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-480" y="-80" width="160" height="80" as="geometry" />
         </mxCell>
@@ -5632,15 +5635,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="abivQID82cbSEpm_Q3cS-48" value="Paint" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="480" y="-240" width="160" height="80" as="geometry" />
+          <mxGeometry x="480" y="-400" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="abivQID82cbSEpm_Q3cS-49" value="SkPaint" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="760" y="-240" width="160" height="80" as="geometry" />
+          <mxGeometry x="760" y="-400" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="abivQID82cbSEpm_Q3cS-50" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="abivQID82cbSEpm_Q3cS-48" target="abivQID82cbSEpm_Q3cS-49">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="760" y="-230" as="sourcePoint" />
-            <mxPoint x="920" y="-230" as="targetPoint" />
+            <mxPoint x="760" y="-390" as="sourcePoint" />
+            <mxPoint x="920" y="-390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="abivQID82cbSEpm_Q3cS-51" value="SkFont" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -5846,8 +5849,25 @@
             <mxPoint x="11" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="abivQID82cbSEpm_Q3cS-102" value="LayoutCache" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="80" y="-80" width="160" height="80" as="geometry" />
+        <mxCell id="abivQID82cbSEpm_Q3cS-102" value="LayoutCacheKey" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-290" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-103" value="LayoutSlot" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-190" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-104" value="LayoutCache" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="-240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-106" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="abivQID82cbSEpm_Q3cS-104" target="abivQID82cbSEpm_Q3cS-105">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="-160" as="sourcePoint" />
+            <mxPoint x="430" y="-210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="abivQID82cbSEpm_Q3cS-107" value="mCache" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="abivQID82cbSEpm_Q3cS-106">
+          <mxGeometry x="-0.0659" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
