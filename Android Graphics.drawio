@@ -5554,7 +5554,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="abivQID82cbSEpm_Q3cS-32" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="560" y="900" width="120" height="220" as="geometry" />
+          <mxGeometry x="400" y="900" width="120" height="220" as="geometry" />
         </mxCell>
         <mxCell id="abivQID82cbSEpm_Q3cS-15" value="HWUI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="abivQID82cbSEpm_Q3cS-32">
           <mxGeometry width="120" height="40" as="geometry" />
