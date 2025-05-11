@@ -5469,7 +5469,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="56BRLfXCpCcOhBilNyrT" name="Font">
-    <mxGraphModel dx="2793" dy="2185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2678" dy="2121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5745,7 +5745,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="abivQID82cbSEpm_Q3cS-76" value="MinikinPaint" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="80" width="160" height="80" as="geometry" />
+          <mxGeometry x="-200" y="240" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="abivQID82cbSEpm_Q3cS-77" value="" style="endArrow=classic;html=1;rounded=1;edgeStyle=elbowEdgeStyle;curved=0;" edge="1" parent="1" source="abivQID82cbSEpm_Q3cS-76" target="abivQID82cbSEpm_Q3cS-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
