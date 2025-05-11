@@ -5898,6 +5898,54 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kd171AebLemQtRYU5nlH-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Text &lt;br&gt;&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="90" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kd171AebLemQtRYU5nlH-2" value="BidiText" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kd171AebLemQtRYU5nlH-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="210" as="sourcePoint" />
+            <mxPoint x="399.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kd171AebLemQtRYU5nlH-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="370" as="sourcePoint" />
+            <mxPoint x="399.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kd171AebLemQtRYU5nlH-5" value="LayoutSplitter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kd171AebLemQtRYU5nlH-6" value="BidiText::RunInfo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="380" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kd171AebLemQtRYU5nlH-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="530" as="sourcePoint" />
+            <mxPoint x="399.5" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kd171AebLemQtRYU5nlH-9" value="Range" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="540" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN3Mzww5liMK_8DidkEQ-1" value="FontCollection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="600" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tN3Mzww5liMK_8DidkEQ-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="690" as="sourcePoint" />
+            <mxPoint x="399.5" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tN3Mzww5liMK_8DidkEQ-3" value="FontCollection::Run " style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="700" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tN3Mzww5liMK_8DidkEQ-4" value="HarfBuzz" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="760" width="240" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
