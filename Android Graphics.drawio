@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14" pages="7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5" pages="8">
   <diagram name="Rendering" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2083" dy="3701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -5954,6 +5954,453 @@
             <mxPoint x="400.16" y="850" as="sourcePoint" />
             <mxPoint x="399.66" y="910" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lFej3NRcNBtMe1WZn1Bx" name="Dialer_DrawOps">
+    <mxGraphModel dx="3540" dy="1358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-2" value="RootRenderNode" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-4" target="8gP3QuzCPgZu7uf1UM0V-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-4" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-5" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-6" target="8gP3QuzCPgZu7uf1UM0V-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-6" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-8" value="StartReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-10" value="EndReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-14" value="com.android.internal.policy.DecorView" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-5" target="8gP3QuzCPgZu7uf1UM0V-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="320" as="sourcePoint" />
+            <mxPoint x="740" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-17" target="8gP3QuzCPgZu7uf1UM0V-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="300" />
+              <mxPoint x="-340" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-17" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-18" target="8gP3QuzCPgZu7uf1UM0V-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="320" />
+              <mxPoint x="-60" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-18" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-19" target="8gP3QuzCPgZu7uf1UM0V-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-19" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-20" target="8gP3QuzCPgZu7uf1UM0V-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="340" />
+              <mxPoint x="1020" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-20" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-21" target="8gP3QuzCPgZu7uf1UM0V-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="320" />
+              <mxPoint x="1260" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-21" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-22" target="8gP3QuzCPgZu7uf1UM0V-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="300" />
+              <mxPoint x="1420" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-22" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-23" value="DrawRect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-24" value="android.graphics.drawable.ColorDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-27" value="StartReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-29" value="android.widget.LinearLayout" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="840" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-30" value="android.view.View" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-31" target="8gP3QuzCPgZu7uf1UM0V-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-31" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-33" value="android.graphics.drawable.LayerDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="900" y="520" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-34" value="DrawRect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-35" value="DrawRect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-37" value="android.view.View" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-39" target="8gP3QuzCPgZu7uf1UM0V-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-39" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-40" value="android.graphics.drawable.ColorDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-41" value="DrawRect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-45" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-46" value="EndReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-48" value="Save" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-49" value="ClipRect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-50" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-51" target="8gP3QuzCPgZu7uf1UM0V-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-51" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-52" target="8gP3QuzCPgZu7uf1UM0V-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-52" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-53" value="Restore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-54" value="SetMatrix" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-56" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-57" value="StartReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.587;entryY=0.089;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-50" target="8gP3QuzCPgZu7uf1UM0V-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-59" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-60" value="EndReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-62" value="android.widget.FrameLayout" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-63" target="8gP3QuzCPgZu7uf1UM0V-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-63" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-64" target="8gP3QuzCPgZu7uf1UM0V-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-64" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-65" target="8gP3QuzCPgZu7uf1UM0V-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-65" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-67" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-68" value="StartReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-69" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-70" value="EndReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-73" value="android.support.v7.widget.FitWindowsLinearLayout" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="680" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-74" target="8gP3QuzCPgZu7uf1UM0V-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-74" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-75" target="8gP3QuzCPgZu7uf1UM0V-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-75" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-76" target="8gP3QuzCPgZu7uf1UM0V-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-76" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-78" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-79" value="StartReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-82" target="8gP3QuzCPgZu7uf1UM0V-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-82" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-83" value="EndReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-86" value="android.support.v7.widget.ContentFrameLayout" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="840" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-87" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-88" target="8gP3QuzCPgZu7uf1UM0V-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-88" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-89" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-91" value="android.widget.RelativeLayout" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1000" width="840" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-92" target="8gP3QuzCPgZu7uf1UM0V-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="1120" />
+              <mxPoint x="-580" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-92" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-93" target="8gP3QuzCPgZu7uf1UM0V-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="1140" />
+              <mxPoint x="-220" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-93" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-94" target="8gP3QuzCPgZu7uf1UM0V-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="1390" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-94" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-95" target="8gP3QuzCPgZu7uf1UM0V-116">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="1140" />
+              <mxPoint x="760" y="1140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-95" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-96" target="8gP3QuzCPgZu7uf1UM0V-117">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="1120" />
+              <mxPoint x="1080" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-96" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-97" target="8gP3QuzCPgZu7uf1UM0V-118">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="1100" />
+              <mxPoint x="1320" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-97" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-98" target="8gP3QuzCPgZu7uf1UM0V-113">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="1090" />
+              <mxPoint x="1550" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-98" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-100" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-101" value="StartReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.616;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8gP3QuzCPgZu7uf1UM0V-87" target="8gP3QuzCPgZu7uf1UM0V-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-103" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-104" value="EndReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-106" value="com.android.dialer.main.impl.toolbar.MainToolbar" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="1160" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-109" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-110" value="StartReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="1160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-112" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-113" value="EndReorderBarrierDrawable" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-115" value="android.support.design.widget.CoordinatorLayout" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1160" width="600" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-116" value="com.android.dialer.main.impl.bottomnav.BottomNavBar" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-117" value="android.widget.FrameLayout" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-118" value="android.widget.FrameLayout" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1160" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-121" value="Empty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-122" value="Empty" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-123" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-124" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-128" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-129" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-130" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-131" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-132" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-133" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-134" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-135" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gP3QuzCPgZu7uf1UM0V-136" value="DrawDrawable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1200" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
