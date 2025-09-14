@@ -6408,7 +6408,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rr1TVJLLzZsZqI0NJcoK" name="Skia_Ganesh">
-    <mxGraphModel dx="2693" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3062" dy="1426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6689,6 +6689,17 @@
             <mxPoint x="570" y="810" as="sourcePoint" />
             <mxPoint x="730" y="810" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TXGUU4qLX1_ApQMGKyRA-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TXGUU4qLX1_ApQMGKyRA-1" target="pDjPhxTTaN4wWqHs9nMk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TXGUU4qLX1_ApQMGKyRA-4" value="fRootDevice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TXGUU4qLX1_ApQMGKyRA-3">
+          <mxGeometry x="-0.0258" y="-4" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TXGUU4qLX1_ApQMGKyRA-1" value="SkCanvas" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="720" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
